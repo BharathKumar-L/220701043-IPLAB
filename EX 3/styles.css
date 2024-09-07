@@ -1,5 +1,5 @@
 form {
-    width: 70%;
+    width: 88%;
     margin: 0 auto;
     color: white;
 }
@@ -10,6 +10,7 @@ form {
 label {
     display: block;
     margin-bottom: 5px;
+    text-align: left;
 }
 input[type="text"], input[type="number"], select {
     width: 100%;
@@ -28,11 +29,13 @@ button {
 }
 .outline{
     background-size: 50%;
-    background-color: black;
-    width: 30%;
+    background-color:rgba(0,0,0,0.4);
+    width: 60%;
     border-radius: 10px;
     transition: .5s;
+    padding: 2%;
 }
 body{
-    background-color: gray;
+    padding: 1%;
+    background-color: rgb(33, 32, 32);
 }
