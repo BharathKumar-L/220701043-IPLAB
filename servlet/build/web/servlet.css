@@ -1,0 +1,48 @@
+form {
+    width: 88%;
+    margin: 0 auto;
+    color: white;
+}
+.form-group {
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+input[type="text"], input[type="number"],input[type="email"] ,textarea,select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    outline: none;
+}
+.submit-btn {
+    text-align: center;
+}
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.outline{
+    background-size: 50%;
+    background-color:rgba(0,0,0,0.4);
+    width: 60%;
+    border-radius: 10px;
+    transition: .5s;
+    padding: 2%;
+}
+body{
+    padding: 1%;
+    background-color: rgb(33, 32, 32);
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
