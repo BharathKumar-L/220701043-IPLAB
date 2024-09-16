@@ -30,15 +30,15 @@ button {
 }
 .outline{
     background-size: 50%;
-    background-color:rgba(0,0,0,0.4);
-    width: 60%;
+    background-color:rgba(13, 71, 33, 0.4);
+    width: 50%;
     border-radius: 10px;
     transition: .5s;
     padding: 2%;
 }
 body{
     padding: 1%;
-    background-color: rgb(33, 32, 32);
+    background-color: rgba(33, 32, 32,0.2);
 }
 input[type=number]::-webkit-outer-spin-button,
 input[type=number]::-webkit-inner-spin-button {
