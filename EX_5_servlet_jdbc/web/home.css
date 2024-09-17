@@ -6,7 +6,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     Created on : 07-Sep-2024, 5:35:21 PM
     Author     : lbhar
 */
-/* Reset and base styles */
 * {
     margin: 0;
     padding: 0;
@@ -30,7 +29,7 @@ body {
 .btn:hover{
     background-color: transparent;
 }
-/* Adding an overlay for a dim effect on the background image */
+
 body::before {
     content: "";
     position: fixed;
@@ -38,12 +37,11 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7); /* Dark overlay */
+    background: rgba(0, 0, 0, 0.7); 
     z-index: -5;
     background-size: cover;
 }
 
-/* Header styling */
 .header {
     color: #4CAF50;
     border-bottom-left-radius: 5px;
@@ -52,18 +50,17 @@ body::before {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent background */
+    background-color: rgba(255, 255, 255, 0.85); 
     width: 90%;
     margin: 20px auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
-    position: fixed; /* Make the header fixed */
-    top: 0; /* Position it at the top of the page */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    position: fixed; 
+    top: 0;
     left: 0;
     right: 0;
-    z-index: 1000; /* Ensure it stays on top of other content */
+    z-index: 1000; 
 }
 
-/* Dropdown and navigation links */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -105,7 +102,6 @@ body::before {
     display: block;
 }
 
-/* Form styling */
 .form-group {
     margin-bottom: 20px;
 }
@@ -130,14 +126,11 @@ input[type="text"], input[type="number"], select {
     margin-bottom: 10px;
 }
 
-/* Removing number input arrows */
 input[type=number]::-webkit-outer-spin-button,
 input[type=number]::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
-
-/* Button styles */
 button, .b {
     padding: 10px 25px;
     background-color: #4CAF50;
@@ -152,7 +145,6 @@ button:hover, .b:hover {
     background-color: #45a049;
 }
 
-/* Form container styles for add, edit, and delete forms */
 #editForm form, #deleteForm form, #addForm form {
     width: 60%;
     margin: 40px auto;
@@ -166,7 +158,6 @@ button:hover, .b:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-/* Main menu button container */
 #main-menu {
     display: flex;
     flex-direction: column;
@@ -197,14 +188,12 @@ button:hover, .b:hover {
     transform: translateY(-5px);
 }
 
-/* Button alignment in delete and edit forms */
 .bt {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* About Section Styling */
 .about-container {
     background-color: #f9f9f9;
     padding: 30px;
@@ -212,14 +201,14 @@ button:hover, .b:hover {
     width: 80%;
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    perspective: 1000px; /* To give a 3D effect */
+    perspective: 1000px; 
     transform: rotateY(0deg);
     transition: transform 0.6s ease-in-out, box-shadow 0.4s ease-in-out;
 }
 
 .about-container:hover {
-    transform: rotateY(15deg); /* Rotate the element slightly to create a 3D effect */
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+    transform: rotateY(15deg); 
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); 
 }
 
 .about-container h2 {
@@ -228,9 +217,8 @@ button:hover, .b:hover {
     font-size: 28px;
     margin-bottom: 20px;
     opacity: 0;
-    animation: fadeInSlideDown 1s forwards; /* Fade-in and slide-down animation */
+    animation: fadeInSlideDown 1s forwards; 
 }
-
 .about-container p {
     text-align: justify;
     font-size: 18px;
@@ -239,14 +227,13 @@ button:hover, .b:hover {
     transform: translateZ(0);
     transition: transform 0.3s ease-in-out;
     opacity: 0;
-    animation: fadeInSlideUp 1.2s forwards; /* Fade-in and slide-up animation */
+    animation: fadeInSlideUp 1.2s forwards; 
 }
 
 .about-container:hover p {
-    transform: translateZ(50px); /* 3D effect on hover */
+    transform: translateZ(50px); 
 }
 
-/* Keyframes for h2 fade-in and slide-down effect */
 @keyframes fadeInSlideDown {
     0% {
         opacity: 0;
@@ -257,8 +244,6 @@ button:hover, .b:hover {
         transform: translateY(0);
     }
 }
-
-/* Keyframes for p fade-in and slide-up effect */
 @keyframes fadeInSlideUp {
     0% {
         opacity: 0;
@@ -307,4 +292,47 @@ tr:hover {
 }
 #bookList button{
     margin-top: 20px;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    #editForm form, #deleteForm form, #addForm form{
+        width: 88%;
+    }
+    .about-container{
+        width: 92%;
+    }
+    #main-menu{
+        width: 70%;
+    }
+    #bookList{
+        width: 95%;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    #editForm form, #deleteForm form, #addForm form{
+        width: 88%;
+    }
+    .about-container{
+        width: 92%;
+    }
+    #main-menu{
+        width: 70%;
+    }
+    #bookList{
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 480px) {
+    #editForm form, #deleteForm form, #addForm form{
+        width: 88%;
+    }
+    .about-container{
+        width: 92%;
+    }
+    #main-menu{
+        width: 70%;
+    }
+    #bookList{
+        width: 95%;
+    }
 }

@@ -26,7 +26,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
         </div>
     </nav>
     <body>
-        <!-- Main feature buttons -->
+
         <div id="main-menu" >
             <button onclick="showForm('addForm')">Add Book</button>
             <button onclick="showForm('editForm')">Edit Book</button>
@@ -34,14 +34,12 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
             <button onclick="displayBooks()" >Display Books</button>
 
         </div>
-        
-        <!-- About Section -->
+
         <section id="about" class="about-container ">
             <h2>About the Library Management System</h2>
             <p>This Library Management System is designed to simplify the process of managing and accessing library resources. Users can easily add, edit, delete, and view books available in the library. Whether you're a student or a librarian, this system helps ensure that the library remains organized and easy to navigate.</p>
         </section>
 
-        <!-- Add Book Form -->
         <div id="addForm" class="form-container " style="display:none;">
             <form action="BookServlet" method="post" onsubmit="return validateForm();">
                 <input type="hidden" name="action" value="add">
@@ -70,7 +68,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
             </form>
         </div>
 
-        <!-- Edit Book Form -->
         <div id="editForm" class="form-container" style="display:none;">
             <form action="BookServlet" method="post">
                 <input type="hidden" name="action" value="edit">
@@ -102,7 +99,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
             </form>
         </div>
 
-        <!-- Delete Book Form -->
         <div id="deleteForm" class="form-container" style="display:none;">
             <form action="BookServlet" method="post">
                 <input type="hidden" name="action" value="delete">
@@ -115,7 +111,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
             </form>
         </div>
 
-        <!-- Display Books Form -->
         <div id="bookList" class="form-container" style="display:none;"></div>
 
     </body>
