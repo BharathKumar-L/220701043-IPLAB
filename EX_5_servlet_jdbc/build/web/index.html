@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="img/icon.png">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h2>Library Management System</h2>
+            <form action="LoginServlet" method="post">
+                <div class="input-group">
+                    <input type="text" name="username" id="username" required>
+                    <label for="username">Username</label>
+                </div>
+                <div class="input-group">
+                    <input name="password" id="password" type="password" required>
+                    <label for="password">Password</label>
+                </div>
+                <a style="text-decoration: none;"><input class="login-btn" type="submit" value="Login"></a>
+                <div class="forgot-password"><a href="#forgot-password">Forgot your password?</a><a href="#new-user">New User?🧑‍💻</a></div>
+            </form>
+        </div>
+    </div>
+    <div class="modal" id="forgot-password">
+        <div class="modal-content">
+            <a href="#" class="close">&times;</a>
+            <h2>Forgot Your Password?</h2>
+            <p>Please enter your username and get your password.</p>
+            <form>
+                <div class="input-group">
+                    <input type="text" required>
+                    <label>Enter your Username:</label>
+                </div>
+                <center><button type="submit" class="submit-btn">Get Password</button></center>
+            </form>
+        </div>
+    </div>
+    <div class="modal" id="new-user">
+        <div class="modal-content">
+            <a href="#" class="close">&times;</a>
+            <h2>Want to register yourself?</h2>
+            <p>Enter a username and password to register yourself.</p>
+            <form action="RegisterServlet" method="post">
+                <div class="input-group">
+                    <input type="text" id="username" name="username" required>
+                    <label for="username">Enter a Username:</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="password" name="password" required>
+                    <label for="password">Enter a Password:</label>
+                </div>
+                <center><button type="submit" value="Register" class="submit-btn">Create User</button></center>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

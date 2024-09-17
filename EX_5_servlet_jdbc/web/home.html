@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LIBRARY MANAGEMENT SYSTEM</title>
+        <link rel="icon" href="img/ic.png"/>
+        <link rel="stylesheet" href="home.css"/>
+
+    </head>
+    <nav class="header"> 
+        <h1 >LIBRARY MANAGEMENT SYSTEM</h1>
+        <div class="dropdown" style="float: right;">
+            <button class="btn"><img style="border: none;" src="img/user-profile.png" width="36px" height="36px" alt="preferences"/></button>
+            <ul class="nav-links">
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="#" onclick="displayBooks()">My Books</a></li>
+                <li><a href="#" onclick="showForm('addForm')">Add Book</a></li>
+                <li><a href="#" onclick="showForm('editForm')">Update Book</a></li>
+                <li><a href="#" onclick="showForm('deleteForm')">Delete Book</a></li>
+            </ul>
+        </div>
+    </nav>
+    <body>
+        <!-- Main feature buttons -->
+        <div id="main-menu" >
+            <button onclick="showForm('addForm')">Add Book</button>
+            <button onclick="showForm('editForm')">Edit Book</button>
+            <button onclick="showForm('deleteForm')">Delete Book</button>
+            <button onclick="displayBooks()" >Display Books</button>
+
+        </div>
+        
+        <!-- About Section -->
+        <section id="about" class="about-container ">
+            <h2>About the Library Management System</h2>
+            <p>This Library Management System is designed to simplify the process of managing and accessing library resources. Users can easily add, edit, delete, and view books available in the library. Whether you're a student or a librarian, this system helps ensure that the library remains organized and easy to navigate.</p>
+        </section>
+
+        <!-- Add Book Form -->
+        <div id="addForm" class="form-container " style="display:none;">
+            <form action="BookServlet" method="post" onsubmit="return validateForm();">
+                <input type="hidden" name="action" value="add">
+                <label for="book_name">Book Name:</label>
+                <input type="text" id="book_name" name="book_name" required><br><br>
+
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author" required><br><br>
+
+                <label for="publisher">Publisher:</label>
+                <input type="text" id="publisher" name="publisher" required><br><br>
+
+                <label for="edition">Edition:</label>
+                <input type="text" id="edition" name="edition"><br><br>
+
+                <label for="price">Price:</label>
+                <input type="number" id="price" name="price" required><br><br>
+
+                <label for="category">Category:</label>
+                <input type="text" id="category" name="category" required><br><br>
+
+                <div class="bt">
+                    <input class="b" type="submit" value="Add Book">
+                    <button type="button" onclick="goBackToMenu()">Back</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Edit Book Form -->
+        <div id="editForm" class="form-container" style="display:none;">
+            <form action="BookServlet" method="post">
+                <input type="hidden" name="action" value="edit">
+                <label for="accno">Book AccNo:</label>
+                <input type="number" id="accno" name="accno" required><br><br>
+
+                <label for="book_name">Book Name:</label>
+                <input type="text" id="book_name" name="book_name" required><br><br>
+
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author" required><br><br>
+
+                <label for="publisher">Publisher:</label>
+                <input type="text" id="publisher" name="publisher" required><br><br>
+
+                <label for="edition">Edition:</label>
+                <input type="text" id="edition" name="edition"><br><br>
+
+                <label for="price">Price:</label>
+                <input type="number" id="price" name="price" required><br><br>
+
+                <label for="category">Category:</label>
+                <input type="text" id="category" name="category" required><br><br>
+
+                <div class="bt">
+                    <input class="b" type="submit" value="Edit Book">
+                    <button type="button" onclick="goBackToMenu()">Back</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Delete Book Form -->
+        <div id="deleteForm" class="form-container" style="display:none;">
+            <form action="BookServlet" method="post">
+                <input type="hidden" name="action" value="delete">
+                <label for="accno">Book AccNo:</label>
+                <input type="number" id="accno" name="accno" required><br><br>
+                <div class="bt">
+                    <input class="b" type="submit" value="Delete Book">
+                    <button type="button" onclick="goBackToMenu()">Back</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Display Books Form -->
+        <div id="bookList" class="form-container" style="display:none;"></div>
+
+    </body>
+    <script src="script.js" defer></script>
+</html>
