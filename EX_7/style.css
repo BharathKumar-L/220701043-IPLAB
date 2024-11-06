@@ -1,0 +1,81 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #3f51b5;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+label {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #555;
+    margin-right: 10px;
+}
+
+#student-select {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    width: 200px;
+}
+
+#student-select:hover, #student-select:focus {
+    border-color: #3f51b5;
+    box-shadow: 0 0 5px rgba(63, 81, 181, 0.5);
+    outline: none;
+}
+
+/* Student Details Box */
+#student-details {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    transition: all 0.3s ease;
+}
+
+#student-details h2 {
+    font-size: 1.5rem;
+    color: #3f51b5;
+    margin-bottom: 15px;
+}
+
+#student-details p {
+    margin: 8px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+#student-details p strong {
+    color: #333;
+}
+
+/* Error Message */
+.error {
+    color: #d32f2f;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Hover effect on the box */
+#student-details:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}

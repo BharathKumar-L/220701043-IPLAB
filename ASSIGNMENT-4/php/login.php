@@ -1,10 +1,15 @@
 <?php
 
-header("Access-Control-Allow-Origin: *"); // Allows all domains
-header("Access-Control-Allow-Methods: POST"); // Allows POST requests
-header("Access-Control-Allow-Headers: Content-Type"); 
+
 
 include 'db.php';
+
+
+header("Access-Control-Allow-Origin: *"); // Allow all origins or specify your domain
+header("Access-Control-Allow-Methods: POST, GET, OPTIONS"); // Allow specific methods
+header("Access-Control-Allow-Headers: Content-Type"); // Allow specific headers
+
+
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Retrieve username and password
