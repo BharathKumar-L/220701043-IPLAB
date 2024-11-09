@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #717178;
+    color: rgb(0, 189, 252);
   }
   
   #game-area {
@@ -31,5 +32,6 @@ body {
   #score {
     font-size: 24px;
     margin-top: 20px;
+    color: rgb(0, 189, 252);
   }
   

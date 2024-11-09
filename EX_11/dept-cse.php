@@ -5,16 +5,12 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Computer Science and Engineering | Rajalakshmi Engineering College (REC)</title>
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
-    <link rel="stylesheet" href="https://www.rajalakshmi.org/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="https://www.rajalakshmi.org/js/bootstrap.min.js" async="async"></script>
+    <script src="js/bootstrap.min.js" async="async"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://www.rajalakshmi.org/css/style.css" />
-    <link rel="stylesheet" href="https://www.rajalakshmi.org/css/index.css" />
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/index.css" />
     <meta itemprop="name" content="Rajalakshmi Engineering College (REC), Chennai" />
     <meta name="Description" content="Rajalakshmi Engineering College (REC), Chennai" />
     <meta name="keywords" content="College in chennai, Engineering College in TamilnaduRajalakshmi Engineering College (REC), Chennai" />
