@@ -5,7 +5,7 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] != 'admin') {
     exit;
 }
 
-include('php/db.php');
+include('backend/db.php');
 ?>
 
 <!DOCTYPE html>
@@ -17,7 +17,7 @@ include('php/db.php');
 </head>
 <body>
 
-<?php include 'php/navbar.php'; ?>
+<?php include 'backend/navbar.php'; ?>
 
 <div class="container mt-5">
     <h2>Admin Dashboard</h2>
@@ -40,8 +40,8 @@ include('php/db.php');
                         <td>{$row['title']}</td>
                         <td>{$row['status']}</td>
                         <td>
-                            <a href='php/approve_post.php?id={$row['id']}' class='btn btn-success'>Approve</a>
-                            <a href='php/delete_post.php?id={$row['id']}' class='btn btn-danger'>Delete</a>
+                            <a href='backend/approve_post.php?id={$row['id']}' class='btn btn-success'>Approve</a>
+                            <a href='backend/delete_post.php?id={$row['id']}' class='btn btn-danger'>Delete</a>
                         </td>
                       </tr>";
             }

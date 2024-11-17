@@ -7,14 +7,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-
-    <!-- Navbar -->
-    <?php include 'php/navbar.php'; ?>
-
-    <!-- Signup Content -->
+    <?php include 'backend/navbar.php'; ?>
     <div class="container mt-5">
         <h1>Sign Up</h1>
-        <form action="php/signup_process.php" method="POST">
+        <form action="backend/signup_process.php" method="POST">
             <div class="form-group">
                 <label for="username">Username</label>
                 <input type="text" class="form-control" id="username" name="username" required>

@@ -9,7 +9,7 @@
 <body>
 <div class="container mt-5">
     <h2>Login</h2>
-    <form action="php/login_process.php" method="POST">
+    <form action="backend/login_process.php" method="POST">
         <div class="form-group">
             <label for="email">Email</label>
             <input type="email" name="email" class="form-control" id="email" required>

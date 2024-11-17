@@ -7,15 +7,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-
-    <!-- Navbar -->
-    <?php include 'php/navbar.php'; ?>
-
-    <!-- Contact Content -->
+    <?php include 'backend/navbar.php'; ?>
     <div class="container mt-5">
         <h1>Contact Us</h1>
         <p>We'd love to hear from you! Please reach out with any questions or feedback.</p>
-        <form action="php/contact_process.php" method="POST">
+        <form action="backend/contact_process.php" method="POST">
             <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" class="form-control" id="name" name="name" required>
@@ -31,7 +27,6 @@
             <button type="submit" class="btn btn-primary">Send Message</button>
         </form>
     </div>
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
