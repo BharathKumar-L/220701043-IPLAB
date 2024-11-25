@@ -3,17 +3,56 @@
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
 Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
 -->
-<html>
+<html lang="en">
 <head>
-    <title>PRODUCT INVENTORY</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Inventory</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Product Management</h1>
-    <ul>
-        <li><a href="add-product.html">Add Product</a></li>
-        <li><a href="view-products.html">View Products</a></li>
-        <li><a href="search-products.html">Search Products</a></li>
-    </ul>
+    <header>
+        <div class="container">
+            <h1>Welcome to Product Inventory Management</h1>
+            <p>Effortlessly manage, view, and search for your products.</p>
+        </div>
+    </header>
+    
+    <nav>
+        <ul class="navigation">
+            <li><a href="add-product.html">Add Product</a></li>
+            <li><a href="view-products.html">View Products</a></li>
+            <li><a href="search-products.html">Search Products</a></li>
+        </ul>
+    </nav>
+
+    <section class="main-content">
+        <div class="intro">
+            <h2>Manage Your Products Easily</h2>
+            <p>Our tool allows you to seamlessly add new products, view your current inventory, and search for specific products in a few clicks.</p>
+        </div>
+
+        <div class="features">
+            <div class="feature-card">
+                <h3>Add Products</h3>
+                <p>Quickly add new products to your inventory with detailed information.</p>
+                <a href="add-product.html" class="btn">Add Now</a>
+            </div>
+            <div class="feature-card">
+                <h3>View Inventory</h3>
+                <p>Browse your entire inventory in a clean and organized manner.</p>
+                <a href="view-products.html" class="btn">View Now</a>
+            </div>
+            <div class="feature-card">
+                <h3>Search Products</h3>
+                <p>Easily find any product using the advanced search feature.</p>
+                <a href="search-products.html" class="btn">Search Now</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Product Inventory Management. All rights reserved.</p>
+    </footer>
 </body>
 </html>

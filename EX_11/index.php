@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -11,12 +11,11 @@
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/index.css" />
   <link rel="shortcut icon" href="image/favicon.png">
-  <meta property="og:image:type" content="image/jpeg">
   <style>
     .banner-8 {
       min-height: 500px;
     }
-
+    
     .d-none {
       display: none;
     }
@@ -110,7 +109,6 @@
     <div class="col-md-12 d-flex align-items-center justify-content-center">
       <nav class="navbar">
         <style>
-          /* Center the navbar container and items */
           .navbar {
             display: flex;
             justify-content: center;
@@ -165,87 +163,87 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li id="logo"> <a href="index.html">
-                <img width="150px" src="https://www.rajalakshmi.org/image/logo2.png" alt="Rajalakshmi Engineering College" class="logo" title="Rajalakshmi Engineering College (REC), Chennai" />
+            <li id="logo"> <a href="./index.php">
+                <img width="150px" src="./image//logo2.png" alt="Rajalakshmi Engineering College" class="logo" title="Rajalakshmi Engineering College (REC), Chennai" />
               </a></li>
             <li class="dropdown "> <a class="dropdown-toggle" href="about.php">About </a>
             </li>
-            <li class="dropdown "> <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" href="http://www.rajalakshmi.org/#">Department </a>
+            <li class="dropdown "> <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" href="#">Department </a>
               <ul role="menu" class="dropdown-menu">
-                <li><a href="http://www.rajalakshmi.org/dept-ame-intro.php">Automobile Engineering</a></li>
-                <li><a href="http://www.rajalakshmi.org/dept-civil-intro.php">Civil Engineering</a></li>
-                <li><a href="http://www.rajalakshmi.org/dept-cse-intro.php">Computer Science &amp; Engineering</a>
+                <li><a href="#">Automobile Engineering</a></li>
+                <li><a href="#">Civil Engineering</a></li>
+                <li><a href="./dept-cse.php">Computer Science &amp; Engineering</a>
                   <ul class="customdesign">
-                    <li><a style="color: #333 !important; font-weight: lighter !important;" href="http://www.rajalakshmi.org/dept-cse-intro.php">Computer Science &amp; Engineering</a></li>
-                    <li><a style="color: #333 !important; font-weight: lighter !important;" href="http://www.rajalakshmi.org/dept-csecs-faculty.php">Computer Science &amp; Engineering (Cyber Security)</a></li>
-                    <li><a style="color: #333 !important; font-weight: lighter !important;" href="http://www.rajalakshmi.org/dept-csbs-intro.php">Computer Science &amp; Business Systems</a></li>
-                    <li><a style="color: #333 !important; font-weight: lighter !important;" href="http://www.rajalakshmi.org/dept-csd-intro.php">Computer Science &amp; Design</a></li>
+                    <li><a style="color: #333 !important; font-weight: lighter !important;" href="./dept-cse.php">Computer Science &amp; Engineering</a></li>
+                    <li><a style="color: #333 !important; font-weight: lighter !important;" href="#">Computer Science &amp; Engineering (Cyber Security)</a></li>
+                    <li><a style="color: #333 !important; font-weight: lighter !important;" href="#">Computer Science &amp; Business Systems</a></li>
+                    <li><a style="color: #333 !important; font-weight: lighter !important;" href="#">Computer Science &amp; Design</a></li>
                   </ul>
                 </li>
-                <li><a href="http://www.rajalakshmi.org/dept-eee-intro.php">Electrical &amp; Electronics Engineering</a></li>
-                <li><a href="http://www.rajalakshmi.org/dept-ece-intro.php">Electronics &amp; Communication Engineering</a></li>
-                <li><a href="http://www.rajalakshmi.org/dept-it-intro.php">Information Technology</a>
+                <li><a href="#">Electrical &amp; Electronics Engineering</a></li>
+                <li><a href="#">Electronics &amp; Communication Engineering</a></li>
+                <li><a href="#">Information Technology</a>
                   <ul class="customdesign">
-                    <li><a style="color: #333 !important; font-weight: lighter !important;" href="http://www.rajalakshmi.org/dept-it-intro.php">Information Technology</a></li>
-                    <li><a style="color: #333 !important; font-weight: lighter !important;" href="http://www.rajalakshmi.org/dept-aiml-intro.php">Artificial Intelligence & Machine Learning</a></li>
-                    <li><a style="color: #333 !important; font-weight: lighter !important;" href="http://www.rajalakshmi.org/dept-aids-intro.php">Artificial Intelligence & Data Science</a></li>
+                    <li><a style="color: #333 !important; font-weight: lighter !important;" href="#">Information Technology</a></li>
+                    <li><a style="color: #333 !important; font-weight: lighter !important;" href="#">Artificial Intelligence & Machine Learning</a></li>
+                    <li><a style="color: #333 !important; font-weight: lighter !important;" href="#">Artificial Intelligence & Data Science</a></li>
                   </ul>
                 </li>
               </ul>
             </li>
-            <li class="dropdown "> <a href="http://www.rajalakshmi.org/coe.php">COE</a></li>
-            <li class="dropdown "> <a class="dropdown-toggle" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="http://www.rajalakshmi.org/#">Academics</a>
+            <li class="dropdown "> <a href="#">COE</a></li>
+            <li class="dropdown "> <a class="dropdown-toggle" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#">Academics</a>
 
               <ul class="dropdown-menu">
-                <li><a href="http://www.rajalakshmi.org/academics-regulations.php">Regulations</a></li>
-                <li><a href="http://www.rajalakshmi.org/academics.php">Curriculum and Syllabus</a></li>
-                <li><a href="http://www.rajalakshmi.org/academic-calendar.php">Academic Schedule</a></li>
-                <li><a href="http://www.rajalakshmi.org/academic-materials.php">Course Materials</a></li>
-                <li><a href="http://www.rajalakshmi.org/academic-handbook.php">Students Handbook</a></li>
+                <li><a href="#">Regulations</a></li>
+                <li><a href="#">Curriculum and Syllabus</a></li>
+                <li><a href="#">Academic Schedule</a></li>
+                <li><a href="#">Course Materials</a></li>
+                <li><a href="#">Students Handbook</a></li>
 
 
               </ul>
             </li>
-            <li class="dropdown "><a class="dropdown-toggle" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="http://www.rajalakshmi.org/#">Admissions</a>
+            <li class="dropdown "><a class="dropdown-toggle" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#">Admissions</a>
               <ul class="dropdown-menu">
-                <li><a href="http://www.rajalakshmi.org/admission-courses.php">Programmes Offered</a></li>
-                <li><a href="http://www.rajalakshmi.org/admission-eligibility.php">Eligibility</a></li>
-                <li><a href="http://www.rajalakshmi.org/admission-engineering-cutoff-anna-university.php">Cutoff Marks</a></li>
-                <li><a href="http://www.rajalakshmi.org/admission-application-forms.php">Application Forms</a></li>
+                <li><a href="#">Programmes Offered</a></li>
+                <li><a href="#">Eligibility</a></li>
+                <li><a href="#">Cutoff Marks</a></li>
+                <li><a href="#">Application Forms</a></li>
               </ul>
             </li>
-            <li class="dropdown "><a class="dropdown-toggle" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="http://www.rajalakshmi.org/#">Facilities</a>
+            <li class="dropdown "><a class="dropdown-toggle" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#">Facilities</a>
               <ul class="dropdown-menu">
-                <li><a href="http://www.rajalakshmi.org/facilities-admin.php">Administration Services</a></li>
-                <li><a href="http://www.rajalakshmi.org/facilities-library.php">Library</a></li>
-                <li><a href="http://www.rajalakshmi.org/facilities-canteen.php">Canteen</a></li>
-                <li><a href="http://www.rajalakshmi.org/facilities-hostel.php">Hostel</a></li>
-                <li><a href="http://www.rajalakshmi.org/facilities-transport.php">Transport</a></li>
-                <li><a href="http://www.rajalakshmi.org/facilities-internet.php">IT Infrastructure</a></li>
-                <li><a href="http://www.rajalakshmi.org/facilities-health.php">Health Centre</a></li>
-                <li><a href="http://www.rajalakshmi.org/facilities-security.php">Security</a></li>
-                <li><a href="http://www.rajalakshmi.org/facilities-lcs.php">Lecture Capturing System</a></li>
-                <li><a href="http://www.rajalakshmi.org/facilities-greencampus.php">Green Campus</a></li>
-                <li><a href="http://www.rajalakshmi.org/facilities-energyconservation.php">Energy Conservation</a></li>
-                <li><a href="http://www.rajalakshmi.org/facilities-waterconservation.php">Water Conservation</a></li>
-                <li><a href="http://www.rajalakshmi.org/facilities-infrastructure.php">Infrastructure</a></li>
-                <li><a href="http://www.rajalakshmi.org/facilities-maintenance.php">Maintenance</a></li>
+                <li><a href="#">Administration Services</a></li>
+                <li><a href="#">Library</a></li>
+                <li><a href="#">Canteen</a></li>
+                <li><a href="#">Hostel</a></li>
+                <li><a href="#">Transport</a></li>
+                <li><a href="#">IT Infrastructure</a></li>
+                <li><a href="#">Health Centre</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Lecture Capturing System</a></li>
+                <li><a href="#">Green Campus</a></li>
+                <li><a href="#">Energy Conservation</a></li>
+                <li><a href="#">Water Conservation</a></li>
+                <li><a href="#">Infrastructure</a></li>
+                <li><a href="#">Maintenance</a></li>
               </ul>
             </li>
 
-            <li class="dropdown "><a class="dropdown-toggle" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="http://www.rajalakshmi.org/#">Placements</a>
+            <li class="dropdown "><a class="dropdown-toggle" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#">Placements</a>
               <ul class="dropdown-menu">
-                <li><a href="http://www.rajalakshmi.org/placement.php">Placement Cell</a></li>
-                <li><a href="http://www.rajalakshmi.org/placement-why-rec.php">Why Rajalakshmi?</a></li>
-                <li><a href="http://www.rajalakshmi.org/placement-procedure.php">Procedure</a></li>
-                <li><a href="http://www.rajalakshmi.org/placement-programs.php">Training Programs</a></li>
-                <li><a href="http://www.rajalakshmi.org/placement-report.php">Placement Report</a></li>
-                <li><a href="http://www.rajalakshmi.org/placement-recruiters.php">Recruiters</a></li>
-                <li><a href="http://www.rajalakshmi.org/placement-training.php">Employability Training Camp</a></li>
-                <li><a href="http://www.rajalakshmi.org/placement-contact.php">Placement Contact</a></li>
-                <li><a href="http://www.rajalakshmi.org/placement-downloads.php">Downloads</a></li>
-                <li><a href="http://www.rajalakshmi.org/gallery-placement.php">Gallery</a></li>
-                <li><a href="http://www.rajalakshmi.org/placement-skillsenhancement.php">Capacity Development and Skills Enhancement</a></li>
+                <li><a href="#">Placement Cell</a></li>
+                <li><a href="#">Why Rajalakshmi?</a></li>
+                <li><a href="#">Procedure</a></li>
+                <li><a href="#">Training Programs</a></li>
+                <li><a href="#">Placement Report</a></li>
+                <li><a href="#">Recruiters</a></li>
+                <li><a href="#">Employability Training Camp</a></li>
+                <li><a href="#">Placement Contact</a></li>
+                <li><a href="#">Downloads</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Capacity Development and Skills Enhancement</a></li>
               </ul>
             </li>
           </ul>
@@ -307,12 +305,14 @@
 
       <div class="carousel-inner carousel " role="listbox">
         <div class="item active banner-2">
+          <img src="./image//image1.jpeg" alt="First"/>
         </div>
 
         <div class="item banner-3">
-
+          <img src="./image//image2.jpg" alt="Second"/>
         </div>
         <div class="item banner-4">
+          <img src="./image//images.jpeg" alt="Third"/>
         </div>
       </div>
       <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
@@ -336,10 +336,10 @@
 
 
               <strong>CIRCULAR - REVALUATION AND SUPPLEMENTARY EXAM</strong><img src="image/new.gif"><br>
-              Circular for the revaluation and conduct of supplementary examination - End Semester Exam. Apr./May 2024 - UG & PG<a href="https://www.rajalakshmi.org/downloads/coe/Circular-Revaluation-SupplementaryExam-UG-PG.pdf" target="_blank"> Click here</strong></a> to VIEW/DOWNLOAD the CIRCULAR </p>
-              <a href="https://www.rajalakshmi.org/downloads/coe/ApplicationforRevaluation.pdf" target="_blank"> Click here</strong></a> to VIEW/DOWNLOAD the REVALUATION APPLICATION FORM</p>
+              Circular for the revaluation and conduct of supplementary examination - End Semester Exam. Apr./May 2024 - UG & PG<a href="#" target="_blank"> Click here</strong></a> to VIEW/DOWNLOAD the CIRCULAR </p>
+              <a href="#" target="_blank"> Click here</strong></a> to VIEW/DOWNLOAD the REVALUATION APPLICATION FORM</p>
               </p>
-              <a href="https://www.rajalakshmi.org/downloads/coe/ApplicationforPhotocopyoftheAnswerScripts-2024.pdf" target="_blank"> Click here</strong></a> to VIEW/DOWNLOAD the APPLICATION FORM FOR PHOTOCOPY</p>
+              <a href="#" target="_blank"> Click here</strong></a> to VIEW/DOWNLOAD the APPLICATION FORM FOR PHOTOCOPY</p>
               </p>
               </p>.
             </li>
@@ -381,13 +381,13 @@
             <li>
               <strong>TOP ENGINEERING INSTITUTE</strong><img src="image/new.gif">
               <p>REC is listed as ONE of the TOP PRIVATE ENGINEERING INSTITUTE in the TIMES ENGINEERING INSTITUTE RANKING SURVEY 2016.
-                <br><a href="http://www.rajalakshmi.org/downloads/TOI-30_06_2016.pdf" target="_blank"><strong>Click here</strong></a> for details.
+                <br><a href="#" target="_blank"><strong>Click here</strong></a> for details.
               </p>
             </li>
             <li>
               <strong>INTERNSHIP</strong>
               <p>We provide opportunities to the students interested in doing internship on "MEMS & Microfluidics". If you are interested in doing an internshiip, please email your profile to head.cemm@rajalakshmi.edu.in.
-                <br><a href="http://www.rajalakshmi.org/downloads/REC-CEMM.pdf" target="_blank"><strong>Click here</strong></a> for details.
+                <br><a href="#" target="_blank"><strong>Click here</strong></a> for details.
               </p>
             </li>
             <li>
@@ -453,12 +453,10 @@
 
   <span class="padder"></span>
   <div class="container-fluid topbar"></div>
-  <div class="container-fluid footer">
+  <div class="container-fluid ">
     <div class="container">
       <div class="row">
-
-
-        <div class="col-md-3">
+        <div class="col-md-3 ">
           <ul class="footer-menu">
             <li class="footer-title">Contact Us</li>
             <li>Rajalakshmi Engineering College,<br>
@@ -471,7 +469,7 @@
       </div>
     </div>
   </div>
-  <div class="float-right  d-none ">Admissions Open: <a href="https://www.rajalakshmi.org/2024/organic" target="_blank">UG</a> | <a href="http://www.rajalakshmi.org/pg-admissions-2023/" target="_blank">PG</a></div>
+  <div class="float-right  d-none ">Admissions Open: <a href="#" target="_blank">UG</a> | <a href="#" target="_blank">PG</a></div>
   <style>
     #myModal {
       text-align: center;

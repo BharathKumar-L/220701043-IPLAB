@@ -1,10 +1,8 @@
 <?php
 include 'db.php';
-
 $query = "SELECT * FROM events";
 $result = mysqli_query($conn, $query);
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +10,6 @@ $result = mysqli_query($conn, $query);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Events</title>
     <style>
-        /* Global Styles */
         body {
             font-family: Arial, sans-serif;
             margin: 0;

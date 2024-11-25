@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #e74c3c;
+}
+
+#game-container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    border: 2px solid #ffffff;
+    background: #000000;
+}
+
+#player {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #3498db;
+    border-radius: 50%;
+}
+
+#obstacle {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #e74c3c;
+    border-radius: 50%;
+}
+
+form {
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 5px;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

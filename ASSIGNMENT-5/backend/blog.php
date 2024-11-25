@@ -15,16 +15,12 @@ $post = $result->fetch_assoc();
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <!-- Navbar Code Here -->
-    
-    <!-- Blog Post Content -->
     <div class="container mt-5">
         <h1><?php echo $post['title']; ?></h1>
         <p><?php echo $post['content']; ?></p>
 
         <!-- Comments Section -->
         <h3>Comments</h3>
-        <!-- Fetch comments from the database -->
         <?php
             $sql = "SELECT * FROM comments WHERE post_id=$post_id ORDER BY created_at DESC";
             $comments = $conn->query($sql);
