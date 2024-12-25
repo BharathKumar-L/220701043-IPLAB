@@ -178,6 +178,7 @@
                 </li>
               </ul>
             </li>
+
             <li class="dropdown "> <a href="#">COE</a></li>
             <li class="dropdown "> <a class="dropdown-toggle" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#">Academics</a>
               <ul class="dropdown-menu">
